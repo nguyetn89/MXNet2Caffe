@@ -238,7 +238,7 @@ def write_node(txt_file, info):
     else:
         #pprint.pprint(info)
         #sys.exit("Warning!  Unknown mxnet op:{}".format(info['op']))
-        print "Warning! Skip Unknown mxnet op:{}".format(info['op'])
+        print("Warning! Skip Unknown mxnet op:{}".format(info['op']))
 
 
 
