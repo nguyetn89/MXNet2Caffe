@@ -20,7 +20,7 @@ net = caffe.Net(args.cf_prototxt, caffe.TRAIN)
 print("-------load caffe prototxt success")
 # ------------------------------------------
 # Convert
-all_keys = arg_params.keys() + aux_params.keys()
+all_keys = list(arg_params) + list(aux_params)
 all_keys.sort()
 
 print('----------------------------------\n')
